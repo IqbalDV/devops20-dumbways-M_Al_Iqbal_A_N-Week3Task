@@ -28,6 +28,7 @@ Load Balance adalah Metode mendistribusikan beban server agar seimbang dan tidak
 # Implementasikan Loadbalancing kepada aplikasi wayshub yang telah kalian gunakan
 
 scriptnya:
+
 Upstream LoadBalance { 
     server 192.168.1.139:3000;
     server 192.168.1.144:3000;
